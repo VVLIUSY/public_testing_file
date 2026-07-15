@@ -1,0 +1,3179 @@
+{
+  "config": {
+    "label-position": "top",
+    "label-width": "120px",
+    "formSize": "default"
+  },
+  "fields": [{
+    "id": "178410441980318",
+    "name": "选项卡布局",
+    "uuid": "BcmElTabs-22",
+    "model": "prop178410441980318",
+    "isShow": true,
+    "i18nKey": "formBuilder.label.tabsLayout",
+    "tabPane": "1",
+    "tagIcon": "el-icon-wallet",
+    "tagName": "BcmElTabs",
+    "children": [{
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "文件查看器",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "file id",
+              "order": 0
+            }]
+          },
+          "dataType": "expression",
+          "isExternalResource": true,
+          "restfulSetting": {
+            "headers": [],
+            "authorization": "",
+            "params": [],
+            "requestMethod": "",
+            "bodyContent": "",
+            "restFulDataSource": "",
+            "restFulDataSourceCode": "",
+            "selectOptionsSetting": {
+              "defaultValue": [],
+              "selectedModelParentFields": [],
+              "selectedModelFields": [],
+              "selectedValueOptionKey": ""
+            }
+          }
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "17841056644827",
+      "model": "prop17841056644827",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "0b7dx5z"
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "docx",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582074197975040",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410501284055",
+      "model": "prop178410501284055",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "id": "178410462721852",
+      "name": "选择框",
+      "uuid": "Select-3",
+      "model": "prop178410462721852",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.select",
+      "tabPane": "16snfvf",
+      "tagIcon": "far fa-caret-square-down",
+      "tagName": "Select",
+      "children": [],
+      "document": "https://element.eleme.cn/#/zh-CN/component/select",
+      "isRender": true,
+      "dataModel": {
+        "name": "string_1",
+        "path": "ALL_TYPE.STRING.STRING_1",
+        "parentPath": "ALL_TYPE.STRING",
+        "dataType": "String"
+      },
+      "__layout__": "colFormItem",
+      "isAnalysis": true,
+      "serviceName": "BcmSelect",
+      "controlPanel": "Select",
+      "componentCode": "SELECT",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 12
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {
+          "multiple": false,
+          "clearable": true,
+          "filterable": true
+        },
+        "props": {},
+        "userDefineProps": {
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "optionType": "static",
+          "isRemoteSearch": false,
+          "optionCollection": [{
+            "label": "PNG",
+            "value": "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png",
+            "isChecked": false
+          }, {
+            "label": "JPEG",
+            "value": "https://res1-cn.c.hihonor.com/data/attachment/forum/202412/11/e300ed93756637ddeaffbecac88b09701d359fc90e867b365cd013969a1371f7.jpeg",
+            "isChecked": false
+          }, {
+            "label": "JPG",
+            "value": "https://oss.estv.com.cn/cms/release/set35/20260407/1997d1c52aee51b865a981d21542f8ef.JPG?w=800!styleprocess35",
+            "isChecked": false
+          }, {
+            "label": "GIF",
+            "value": "https://q2.itc.cn/q_70/images03/20251220/1b69049efe2b4b36a2f01b058885d0ee.gif",
+            "isChecked": false
+          }, {
+            "label": "DOCX",
+            "value": "https://501351981.github.io/vue-office/examples/dist/static/test-files/test.docx",
+            "isChecked": false
+          }, {
+            "label": "PPT",
+            "value": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/QA Working Introduction.ppt",
+            "isChecked": false
+          }, {
+            "label": "PPTX",
+            "value": "https://501351981.github.io/vue-office/examples/dist/static/test-files/test.pptx",
+            "isChecked": false
+          }, {
+            "label": "XLS",
+            "value": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/Export_20240529103744.xls",
+            "isChecked": false
+          }, {
+            "label": "XLSX",
+            "value": "https://docs.sheetjs.com/pres.xlsx",
+            "isChecked": false
+          }, {
+            "label": "DOC",
+            "value": "https://rsj.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=4946d3647962419f93ca9bee136503eb.doc",
+            "isChecked": false
+          }, {
+            "label": "CSV",
+            "value": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/report.csv",
+            "isChecked": false
+          }, {
+            "label": "PDF",
+            "value": "https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf",
+            "isChecked": false
+          }]
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "微软",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": true,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 12
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {
+          "multiple": false,
+          "filterable": true,
+          "clearable": true
+        },
+        "userDefineProps": {
+          "optionType": "static",
+          "isRemoteSearch": false,
+          "optionCollection": [{
+            "label": "PPTX",
+            "value": "https://501351981.github.io/vue-office/examples/dist/static/test-files/test.pptx",
+            "isChecked": false
+          }, {
+            "label": "DOCX",
+            "value": "https://501351981.github.io/vue-office/examples/dist/static/test-files/test.docx",
+            "isChecked": false
+          }, {
+            "label": "XLSX",
+            "value": "https://docs.sheetjs.com/pres.xlsx",
+            "isChecked": false
+          }, {
+            "label": "PDF",
+            "value": "https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf",
+            "isChecked": false
+          }],
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "tagName": "Select",
+      "__layout__": "colFormItem",
+      "id": "17841048215531",
+      "model": "prop17841048215531",
+      "componentCode": "SELECT",
+      "name": "选择框",
+      "i18nKey": "formBuilder.label.select",
+      "tagIcon": "far fa-caret-square-down",
+      "serviceName": "BcmSelect",
+      "controlPanel": "Select",
+      "uuid": "Select-3",
+      "document": "https://element.eleme.cn/#/zh-CN/component/select",
+      "tabPane": "16snfvf",
+      "dataModel": {
+        "name": "string_1",
+        "path": "ALL_TYPE.STRING.STRING_1",
+        "parentPath": "ALL_TYPE.STRING",
+        "dataType": "String"
+      }
+    }, {
+      "id": "178410459318155",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178410459318155",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "16snfvf",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": {
+        "name": "string_1",
+        "path": "ALL_TYPE.STRING.STRING_1",
+        "parentPath": "ALL_TYPE.STRING",
+        "dataType": "String"
+      },
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "height": 200,
+          "dataType": "expression",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": true,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "文件查看器",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "17841031506285",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop17841031506285",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "0b537wx",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS2.docx",
+          "height": 50,
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS.docx",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178410324065943",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178410324065943",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "0b537wx",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS11.pdf",
+          "height": 200,
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS.pdf",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178410303889727",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178410303889727",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "0b537wx",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "height": 50,
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS.xlsx",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178401578079042",
+      "name": "File Viewer",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178401578079042",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "2",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {
+          "width": ""
+        },
+        "userDefineProps": {
+          "src": "https://501351981.github.io/vue-office/examples/dist/static/test-files/test.docx",
+          "height": 500,
+          "dataType": "constant",
+          "fileType": "",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "fromFileServer": false,
+          "restfulSetting": {
+            "url": "[operationHost]/dm/download?fileUUID=1615383762526208",
+            "params": [{
+              "key": "fileUUID",
+              "value": "1194226680020992",
+              "mappingExpression": "CONSTANT"
+            }],
+            "headers": [],
+            "variables": [],
+            "bodyContent": "",
+            "authorization": "",
+            "requestMethod": "GET",
+            "restFulDataSource": "getFile",
+            "authorizationConfig": {
+              "authType": "No Auth",
+              "apiKeyAuthorization": null,
+              "oauth2Authorization": null,
+              "bearerTokenAuthorization": null
+            },
+            "selectOptionsSetting": {
+              "defaultValue": [],
+              "selectedModelFields": [],
+              "selectedValueOptionKey": "",
+              "selectedModelParentFields": []
+            },
+            "restFulDataSourceCode": "restful85c5610f5e9c4142864bb51834c28bf3"
+          },
+          "downloadSetting": {
+            "isDynamic": false,
+            "fileServer": "velocity",
+            "isMultiple": false,
+            "downloadList": [{
+              "order": 0,
+              "fileId": "file id",
+              "filename": "file name"
+            }],
+            "dataModelSetting": {
+              "fileIdModelField": null,
+              "filenameModelField": null,
+              "selectedModelParentFields": null
+            }
+          },
+          "isMobileKeyword": false,
+          "isExternalResource": true
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".docx",
+          "rules": [],
+          "hiddenLabel": false
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409716754839",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409716754839",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "2",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/QA Working Introduction.ppt",
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".ppt",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409586619979",
+      "name": "File Viewer",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409586619979",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "2",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {
+          "width": ""
+        },
+        "userDefineProps": {
+          "src": "https://501351981.github.io/vue-office/examples/dist/static/test-files/test.pptx",
+          "height": 300,
+          "dataType": "constant",
+          "fileType": "",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "fromFileServer": false,
+          "restfulSetting": {
+            "url": "[operationHost]/dm/download?fileUUID=1615383762526208",
+            "params": [{
+              "key": "fileUUID",
+              "value": "1194226680020992",
+              "mappingExpression": "CONSTANT"
+            }],
+            "headers": [],
+            "variables": [],
+            "bodyContent": "",
+            "authorization": "",
+            "requestMethod": "GET",
+            "restFulDataSource": "getFile",
+            "authorizationConfig": {
+              "authType": "No Auth",
+              "apiKeyAuthorization": null,
+              "oauth2Authorization": null,
+              "bearerTokenAuthorization": null
+            },
+            "selectOptionsSetting": {
+              "defaultValue": [],
+              "selectedModelFields": [],
+              "selectedValueOptionKey": "",
+              "selectedModelParentFields": []
+            },
+            "restFulDataSourceCode": "restful85c5610f5e9c4142864bb51834c28bf3"
+          },
+          "downloadSetting": {
+            "isDynamic": false,
+            "fileServer": "velocity",
+            "isMultiple": false,
+            "downloadList": [{
+              "order": 0,
+              "fileId": "file id",
+              "filename": "file name"
+            }],
+            "dataModelSetting": {
+              "fileIdModelField": null,
+              "filenameModelField": null,
+              "selectedModelParentFields": null
+            }
+          },
+          "isMobileKeyword": false,
+          "isExternalResource": true
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".pptx",
+          "rules": [],
+          "hiddenLabel": false
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409711939943",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409711939943",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "2",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/Export_20240529103744.xls",
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".xls",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409565458446",
+      "name": "File Viewer",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409565458446",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "2",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {
+          "width": ""
+        },
+        "userDefineProps": {
+          "src": "https://docs.sheetjs.com/pres.xlsx",
+          "height": 200,
+          "dataType": "constant",
+          "fileType": "",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "fromFileServer": false,
+          "restfulSetting": {
+            "url": "[operationHost]/dm/download?fileUUID=1615383762526208",
+            "params": [{
+              "key": "fileUUID",
+              "value": "1194226680020992",
+              "mappingExpression": "CONSTANT"
+            }],
+            "headers": [],
+            "variables": [],
+            "bodyContent": "",
+            "authorization": "",
+            "requestMethod": "GET",
+            "restFulDataSource": "getFile",
+            "authorizationConfig": {
+              "authType": "No Auth",
+              "apiKeyAuthorization": null,
+              "oauth2Authorization": null,
+              "bearerTokenAuthorization": null
+            },
+            "selectOptionsSetting": {
+              "defaultValue": [],
+              "selectedModelFields": [],
+              "selectedValueOptionKey": "",
+              "selectedModelParentFields": []
+            },
+            "restFulDataSourceCode": "restful85c5610f5e9c4142864bb51834c28bf3"
+          },
+          "downloadSetting": {
+            "isDynamic": false,
+            "fileServer": "velocity",
+            "isMultiple": false,
+            "downloadList": [{
+              "order": 0,
+              "fileId": "file id",
+              "filename": "file name"
+            }],
+            "dataModelSetting": {
+              "fileIdModelField": null,
+              "filenameModelField": null,
+              "selectedModelParentFields": null
+            }
+          },
+          "isMobileKeyword": false,
+          "isExternalResource": true
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".xlsx",
+          "rules": [],
+          "hiddenLabel": false
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409662572744",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409662572744",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "2",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://rsj.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=4946d3647962419f93ca9bee136503eb.doc",
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".doc",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409814477747",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409814477747",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "2",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/report.csv",
+          "height": 50,
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "csv",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409599352066",
+      "name": "File Viewer",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409599352066",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "2",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {
+          "width": ""
+        },
+        "userDefineProps": {
+          "src": "https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf",
+          "height": 300,
+          "dataType": "constant",
+          "fileType": "",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "fromFileServer": false,
+          "restfulSetting": {
+            "url": "[operationHost]/dm/download?fileUUID=1615383762526208",
+            "params": [{
+              "key": "fileUUID",
+              "value": "1194226680020992",
+              "mappingExpression": "CONSTANT"
+            }],
+            "headers": [],
+            "variables": [],
+            "bodyContent": "",
+            "authorization": "",
+            "requestMethod": "GET",
+            "restFulDataSource": "getFile",
+            "authorizationConfig": {
+              "authType": "No Auth",
+              "apiKeyAuthorization": null,
+              "oauth2Authorization": null,
+              "bearerTokenAuthorization": null
+            },
+            "selectOptionsSetting": {
+              "defaultValue": [],
+              "selectedModelFields": [],
+              "selectedValueOptionKey": "",
+              "selectedModelParentFields": []
+            },
+            "restFulDataSourceCode": "restful85c5610f5e9c4142864bb51834c28bf3"
+          },
+          "downloadSetting": {
+            "isDynamic": false,
+            "fileServer": "velocity",
+            "isMultiple": false,
+            "downloadList": [{
+              "order": 0,
+              "fileId": "file id",
+              "filename": "file name"
+            }],
+            "dataModelSetting": {
+              "fileIdModelField": null,
+              "filenameModelField": null,
+              "selectedModelParentFields": null
+            }
+          },
+          "isMobileKeyword": false,
+          "isExternalResource": true
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".pdf",
+          "rules": [],
+          "hiddenLabel": false
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409604957894",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409604957894",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "1",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png",
+          "height": 50,
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".png",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "17840962619364",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop17840962619364",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "1",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://res1-cn.c.hihonor.com/data/attachment/forum/202412/11/e300ed93756637ddeaffbecac88b09701d359fc90e867b365cd013969a1371f7.jpeg",
+          "height": 50,
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }]
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".jpeg",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409611149834",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409611149834",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "1",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://oss.estv.com.cn/cms/release/set35/20260407/1997d1c52aee51b865a981d21542f8ef.JPG?w=800!styleprocess35",
+          "height": 50,
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }]
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".jpg",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "id": "178409632578826",
+      "name": "文件查看器",
+      "uuid": "BcmFileViewer-29",
+      "model": "prop178409632578826",
+      "isShow": true,
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tabPane": "1",
+      "tagIcon": "fas fa-file-alt",
+      "tagName": "BcmFileViewer",
+      "children": [],
+      "isRender": true,
+      "dataModel": null,
+      "__layout__": "colFormItem",
+      "isAnalysis": false,
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "componentCode": "BCM_FILE_VIEWER",
+      "__layoutConfig__": {
+        "on": {},
+        "attrs": {},
+        "props": {
+          "span": 24
+        },
+        "style": {
+          "width": "",
+          "height": ""
+        },
+        "userDefineProps": {}
+      },
+      "__controlConfig__": {
+        "attrs": {},
+        "props": {},
+        "userDefineProps": {
+          "src": "https://q2.itc.cn/q_70/images03/20251220/1b69049efe2b4b36a2f01b058885d0ee.gif",
+          "height": 50,
+          "dataType": "constant",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }],
+          "isWebKeyword": false,
+          "isMobileKeyword": false
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": ".gif",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      }
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "doc",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582074200096768",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410524613599",
+      "model": "prop178410524613599",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "xlsx",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582074277699584",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410527302598",
+      "model": "prop178410527302598",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "xls",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582074277781504",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "17841052826021",
+      "model": "prop17841052826021",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "pptx",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582074408640512",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410529281891",
+      "model": "prop178410529281891",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "ppt",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582074415702016",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410531523133",
+      "model": "prop178410531523133",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "png",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582075230085120",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410536761863",
+      "model": "prop178410536761863",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "jpg",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582075338383360",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410537569049",
+      "model": "prop178410537569049",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "jpeg",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582075517550592",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410538690876",
+      "model": "prop178410538690876",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "gif",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582075625824256",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410539856126",
+      "model": "prop178410539856126",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "csv",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582075846492160",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "17841054108422",
+      "model": "prop17841054108422",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "svg",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582075846852608",
+              "order": 0
+            }]
+          },
+          "height": 50
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410542165035",
+      "model": "prop178410542165035",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "pdf",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582075848327168",
+              "order": 0
+            }]
+          },
+          "height": 200
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410545839524",
+      "model": "prop178410545839524",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "msg",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582076243238912",
+              "order": 0
+            }]
+          },
+          "height": 200
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410548725134",
+      "model": "prop178410548725134",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS1.xlsx",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582076971909120",
+              "order": 0
+            }]
+          },
+          "height": 200
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410551174897",
+      "model": "prop178410551174897",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS2.docx",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582076972974080",
+              "order": 0
+            }]
+          },
+          "height": 200
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410552150969",
+      "model": "prop178410552150969",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS3.pptx",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582076971974656",
+              "order": 0
+            }]
+          },
+          "height": 200
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410553384332",
+      "model": "prop178410553384332",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS9.doc",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582076973441024",
+              "order": 0
+            }]
+          },
+          "height": 200
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410555330021",
+      "model": "prop178410555330021",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS10.xls",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582076971950080",
+              "order": 0
+            }]
+          },
+          "height": 200
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410556755581",
+      "model": "prop178410556755581",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "WPS11.pdf",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582076972949504",
+              "order": 0
+            }]
+          },
+          "height": 200
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "178410557749396",
+      "model": "prop178410557749396",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }, {
+      "isRender": true,
+      "isShow": true,
+      "isAnalysis": false,
+      "children": [],
+      "__layoutConfig__": {
+        "props": {
+          "span": 24
+        },
+        "attrs": {},
+        "on": {},
+        "userDefineProps": {},
+        "style": {
+          "width": "",
+          "height": ""
+        }
+      },
+      "__formItemConfig__": {
+        "props": {
+          "label": "txt",
+          "rules": []
+        },
+        "style": {},
+        "custTextStyle": {
+          "labelStyle": {},
+          "contentStyle": {}
+        }
+      },
+      "__controlConfig__": {
+        "props": {},
+        "attrs": {},
+        "userDefineProps": {
+          "isWebKeyword": false,
+          "isMobileKeyword": false,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }],
+          "dataType": "constant",
+          "src": "https://raw.githubusercontent.com/VVLIUSY/public_testing_file/refs/heads/main/WPS1.xlsx",
+          "fromFileServer": true,
+          "downloadSetting": {
+            "isDynamic": false,
+            "isMultiple": false,
+            "fileServer": "velocity",
+            "dataModelSetting": {
+              "selectedModelParentFields": null,
+              "filenameModelField": null,
+              "fileIdModelField": null
+            },
+            "downloadList": [{
+              "filename": "file name",
+              "fileId": "1582079096193024",
+              "order": 0
+            }]
+          },
+          "height": 200
+        }
+      },
+      "tagName": "BcmFileViewer",
+      "__layout__": "colFormItem",
+      "id": "17841055983476",
+      "model": "prop17841055983476",
+      "componentCode": "BCM_FILE_VIEWER",
+      "name": "文件查看器",
+      "i18nKey": "formBuilder.label.fileViewer",
+      "tagIcon": "fas fa-file-alt",
+      "serviceName": "BcmFileViewer",
+      "controlPanel": "BcmFileViewer",
+      "uuid": "BcmFileViewer-29",
+      "tabPane": "1i9xl1l",
+      "dataModel": null
+    }],
+    "document": "https://element.eleme.cn/#/zh-CN/component/tabs",
+    "isRender": true,
+    "__layout__": "tabsFromItem",
+    "isAnalysis": true,
+    "controlPanel": "BcmElTabs",
+    "componentCode": "TABS_LAYOUT",
+    "__layoutConfig__": {
+      "on": {},
+      "attrs": {},
+      "props": {
+        "span": 24
+      },
+      "style": {
+        "width": "",
+        "height": ""
+      },
+      "userDefineProps": {}
+    },
+    "__controlConfig__": {
+      "attrs": {},
+      "props": {},
+      "userDefineProps": {
+        "tabType": "Static",
+        "linkages": [{
+          "linkageField": {
+            "label": "",
+            "model": "",
+            "componentCode": ""
+          },
+          "linkageSettings": []
+        }],
+        "activeTabsValue": "0b7dx5z",
+        "staticTabPaneConf": [{
+          "lazy": true,
+          "name": "1",
+          "title": "图片",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }]
+        }, {
+          "lazy": true,
+          "name": "2",
+          "title": "微软",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }]
+        }, {
+          "key": "Tab 0b537wx",
+          "lazy": true,
+          "name": "0b537wx",
+          "title": "WPS",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }]
+        }, {
+          "key": "Tab 16snfvf",
+          "lazy": true,
+          "name": "16snfvf",
+          "title": "绑定数据模型",
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "model": "",
+              "componentCode": ""
+            },
+            "linkageSettings": []
+          }]
+        }, {
+          "key": "Tab 1i9xl1l",
+          "title": "文件服务器 - Velocity File Server",
+          "name": "1i9xl1l",
+          "lazy": true,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }]
+        }, {
+          "key": "Tab 0b7dx5z",
+          "title": "外部资源",
+          "name": "0b7dx5z",
+          "lazy": true,
+          "linkages": [{
+            "linkageField": {
+              "label": "",
+              "componentCode": "",
+              "model": ""
+            },
+            "linkageSettings": []
+          }]
+        }],
+        "dynamicTabPaneConf": null
+      }
+    },
+    "__formItemConfig__": {
+      "props": {
+        "label": "选项卡布局",
+        "rules": []
+      },
+      "style": {},
+      "custTextStyle": {
+        "labelStyle": {},
+        "contentStyle": {}
+      }
+    },
+    "sortNum": 0
+  }]
+}
